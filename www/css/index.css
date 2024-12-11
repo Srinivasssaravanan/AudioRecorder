@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+button {
+    padding: 12px 25px;
+    margin: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px auto;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.seekbar {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.speed-controls {
+    margin-top: 10px;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    border-radius: 8px;
+    margin-top: 10px;
+}
